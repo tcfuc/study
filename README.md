@@ -1,2 +1,2 @@
-# study-typescript
-学习Typescript
+# study
+学习记录
