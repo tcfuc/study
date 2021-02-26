@@ -25,3 +25,28 @@ function guidDeDup() {
 }
 
 
+/**
+ * 栈
+ */
+function stack (){
+    this.array = [];
+    this.length = 0;
+    this.add = (value) => add(value);
+    this.del = () => del();
+    this.read = () => read();
+}
+
+function add(value){
+    this.array[this.length] = value;
+    ++this.length;
+}
+
+function del(){
+    this.array[this.length - 1] = null;
+}
+
+function read(){
+    console.log(this.array.shift());
+}
+
+
